@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+nav :hover {
+    color: coral;
+}
+
+div.footer a:hover {
+    color: coral;
+    background-color: white;
+}
+
+header {
+    width: fit-content;
+    margin: 2px auto;
+    display: flex;
+}
+
+form {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+
+}
+
+header nav.store {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 30px 40px;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    font-weight: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form div.input input {
+    width: 180px;
+    height: 30px;
+    padding: 0 5px;
+    border: 3px solid transparent;
+    background: transparent;
+    color: coral;
+    border-radius: 3px;
+    display: flex;
+    font-size: 16px;
+}
+
+div.satauri form {
+    position: absolute;
+}
+
+form div.input .fa-solid {
+    margin: 10px;
+    color: coral;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+.satauri {
+    color: rgb(200, 62, 62);
+    font-size: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+}
+
+.icons a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+
+.login a {
+    color: coral;
+    font-size: 18px;
+}
+
+.login {
+    display: flex;
+}
+
+.cart a {
+    color: coral;
+    font-size: 18px;
+}
+
+.cart {
+    display: flex;
+}
+
+.input {
+    margin-left: 30px;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+}
+
+div.footer h1 {
+    margin-top: 180px;
+    color: white;
+    font-size: 48px;
+}
+
+div.footer a {
+    margin-top: 40px;
+    display: block;
+    width: 240px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 650px;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+body {
+    background-image: url(12.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+body div.tetri {
+    background-color: white;
+}
